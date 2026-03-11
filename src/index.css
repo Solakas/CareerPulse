@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Roboto+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fira Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Roboto Serif", ui-serif, serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-full: 999px;
+
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-7: 28px;
+  --spacing-8: 32px;
+  --spacing-9: 36px;
+  --spacing-10: 40px;
+}
+
+:root {
+  --background: #f9f9f9;
+  --foreground: #333333;
+  --card: #ffffff;
+  --card-foreground: #333333;
+  --primary: #66823b;
+  --primary-foreground: #ffffff;
+  --secondary: #154e24;
+  --secondary-foreground: #ffffff;
+  --muted: #f9f9f9;
+  --muted-foreground: #696969;
+  --accent: #f3f7ee;
+  --accent-foreground: #4d622c;
+  --border: #d4d4d4;
+  --destructive: #b5142c;
+  --success: #45932f;
+  --warning: #f8941e;
+  --info: #54659c;
+  --radius: 8px;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+

@@ -1,0 +1,5 @@
+{
+  "name": "CareerPulse Advisor",
+  "description": "Get personalized feedback on job postings based on your career preferences using Gemini AI.",
+  "requestFramePermissions": []
+}
