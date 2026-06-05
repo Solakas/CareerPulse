@@ -28,7 +28,8 @@ import {
   Clock,
   User as UserIcon,
   Link as LinkIcon,
-  FileText
+  FileText,
+  Activity
 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import TextareaAutosize from 'react-textarea-autosize';
@@ -1398,7 +1399,7 @@ export default function App() {
       <nav className="w-full md:w-64 bg-white border-r border-border p-8 flex flex-col gap-1.5">
         <div className="flex items-center gap-2.5 mb-10 px-2">
           <div className="w-9 h-9 bg-secondary rounded-lg flex items-center justify-center text-white shadow-sm">
-            <Briefcase size={20} />
+            <Activity size={20} />
           </div>
           <div>
             <h1 className="font-serif font-bold text-xl tracking-tight text-foreground">CareerPulse</h1>
